@@ -1,0 +1,5 @@
+# Local dump folder
+dump/
+
+# MCP auth tokens (if any get stored locally)
+.mcp-auth/
