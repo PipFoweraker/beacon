@@ -3,3 +3,23 @@ dump/
 
 # MCP auth tokens (if any get stored locally)
 .mcp-auth/
+
+# Claude Code local config
+.claude/
+.mcp.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build outputs (if we add a build step later)
+dist/
+build/
+node_modules/
