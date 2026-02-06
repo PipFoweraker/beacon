@@ -64,13 +64,29 @@ Project: BEACON
 
 ## Assignee Mapping
 
-| Role | Jira User |
-|------|-----------|
-| Pip | pip@... (primary owner) |
-| CoS-TBD | Ella (assistant) |
-| Attorney | Label: `external-attorney` |
-| USRunner-TBD | Label: `us-runner-tbd` |
-| AUAdmin-TBD | Label: `au-admin-tbd` |
+| Role | Jira User | Notes |
+|------|-----------|-------|
+| Pip | Pip Foweraker | Primary owner, Interim CEO |
+| Lisha | Lisha Chai | COO / holding CoS tasks with `cos-handover` label |
+| EA | Ella Watson | Executive Assistant to Pip |
+| US Runner | Paola (Paolabaca527) | US-based runner + customer service hours |
+| Attorney | Label: `external-attorney` | PKK Legal (Paul K. Kim) |
+| CoS (TBD) | Label: `cos-handover` | Hiring in progress; tasks held by Lisha |
+| AUAdmin-TBD | Label: `au-admin-tbd` | Shared resource |
+
+### Labels
+| Label | Purpose |
+|-------|---------|
+| `cos-handover` | CoS tasks held by Lisha for eventual handover |
+| `external-attorney` | Attorney-dependent tasks (PKK Legal) |
+| `us-runner` | Tasks for Paola / US runner role |
+| `au-admin-tbd` | Shared AU admin resource, still TBD |
+
+### Role Notes
+- **Lisha (COO):** Holding CoS operational tasks interim. When CoS hired, bulk reassign via `labels = cos-handover`
+- **Ella (EA):** Administrative support to Pip; scheduling, comms, some setup tasks
+- **Paola (US Runner):** US-based runner, may expand to other US coverage
+- **Attorney:** External dependency; track via labels, not direct assignment
 
 ## Troubleshooting
 
