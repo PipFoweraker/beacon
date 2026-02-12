@@ -16,7 +16,7 @@ Status key: `[ ]` pending | `[~]` in progress | `[x]` done | `[!]` blocked | `[-
 - [ ] Define initial board composition requirements
 - [ ] Identify and approach board candidates `CRITICAL`
 - [ ] Decide employment model for AU staff `CRITICAL`
-- [ ] Register domain name (beaconfiscal.org or similar)
+- [ ] Register domain name (beacongcr.org or similar)
 - [ ] Assign CoS tasks to Lisha in Jira with `cos-handover` label
 
 ### CoS (Lisha holding)
@@ -209,7 +209,7 @@ Narrative + Projections + EIN + Bylaws (W2-3)
 | 2 | Employment model (AU staff) | Certes secondment / EOR / Direct | Pip | W1 |
 | 3 | Form 1023 vs 1023-EZ | Full 1023 (likely) | Attorney | W3 |
 | 4 | CoS employment arrangement | Certes secondment / Other | Pip | When hired |
-| 5 | CoS Beacon email domain | beaconfiscal.org / other | Pip | When hired |
+| 5 | CoS Beacon email domain | beacongcr.org / other | Pip | When hired |
 
 ---
 

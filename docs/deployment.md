@@ -4,7 +4,9 @@ This document explains how to deploy the Beacon static website to Dreamhost.
 
 ## Overview
 
-The site is deployed automatically via GitHub Actions whenever changes are pushed to the `main` branch. The workflow uses FTPS to upload files to Dreamhost's shared hosting.
+The site is deployed automatically via GitHub Actions whenever changes are pushed to the `main` branch. The workflow uses SFTP to upload files to Dreamhost's shared hosting.
+
+**Domain:** beacongcr.org (previously beacongcr.org — pivoted February 2026)
 
 ## Architecture
 
@@ -18,7 +20,7 @@ GitHub Repository (main branch)
    Dreamhost Server
          │
          ▼
-   https://beaconfiscal.org
+   https://beacongcr.org
 ```
 
 ## Initial Setup (One-Time)
@@ -28,8 +30,8 @@ GitHub Repository (main branch)
 1. **Log into Dreamhost Panel**: https://panel.dreamhost.com
 2. **Set up the domain**:
    - Go to "Manage Domains" → "Add Hosting to a Domain"
-   - Add `beaconfiscal.org` (or your chosen domain)
-   - Note the web directory path (typically `/home/username/beaconfiscal.org`)
+   - Add `beacongcr.org` (or your chosen domain)
+   - Note the web directory path (typically `/home/username/beacongcr.org`)
 3. **Create FTP user** (if needed):
    - Go to "Manage Users"
    - Create or use existing user with FTP/SFTP access
@@ -50,7 +52,7 @@ Add these secrets to your GitHub repository:
 | `FTP_SERVER` | Dreamhost FTP server | `ftp.dreamhost.com` |
 | `FTP_USERNAME` | Your FTP username | `username` |
 | `FTP_PASSWORD` | Your FTP password | `your-secure-password` |
-| `FTP_REMOTE_PATH` | Path on server | `/home/username/beaconfiscal.org/` |
+| `FTP_REMOTE_PATH` | Path on server | `/home/username/beacongcr.org/` |
 
 **Important**:
 - The `FTP_REMOTE_PATH` must end with a trailing slash
@@ -168,7 +170,7 @@ Check deployment status:
 FTP_SERVER=ftp.dreamhost.com
 FTP_USERNAME=your_username
 FTP_PASSWORD=your_password
-FTP_REMOTE_PATH=/home/your_username/beaconfiscal.org/
+FTP_REMOTE_PATH=/home/your_username/beacongcr.org/
 ```
 
 ### Deploy Commands
@@ -200,4 +202,4 @@ beacon/
 
 ---
 
-**Last Updated**: January 2026
+**Last Updated**: February 2026

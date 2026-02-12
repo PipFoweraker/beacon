@@ -12,14 +12,16 @@
 
 ### Recommendation
 
-**beaconfiscal.org** — clearly communicates fiscal sponsorship purpose, .org appropriate for 501(c)(3).
+**beacongcr.org** — pivoted from beaconfiscal.org to reflect broader GCR mission. .org appropriate for 501(c)(3).
+
+**Note (2026-02):** Domain changed from beaconfiscal.org to beacongcr.org. Email will move to pip@beacongcr.org. Update Google Workspace, Dreamhost panel, and GitHub secrets accordingly.
 
 ### Registration
 
 - [ ] Register chosen domain
 - [ ] Set up DNS
 - [ ] Configure Google Workspace for Nonprofits
-- [ ] Set up email (pip@beaconfiscal.org)
+- [ ] Set up email (pip@beacongcr.org)
 
 ### Hosting Options (Static Site)
 

@@ -1,0 +1,8 @@
+# Clean URLs: /about/scope serves about/scope.html
+RewriteEngine On
+
+# If not a directory and not already a file, try .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
