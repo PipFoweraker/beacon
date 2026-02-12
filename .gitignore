@@ -19,6 +19,10 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Draft legal/financial docs — restore post-approval for transparency
+docs/form-1023-responses.md
+docs/ceo-compensation-comparables.md
+
 # Build outputs (if we add a build step later)
 dist/
 build/
