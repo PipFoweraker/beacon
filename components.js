@@ -124,7 +124,7 @@
     html += '<div class="footer-about">';
     html += '<p class="footer-name">Beacon Institute for Global Catastrophic Risk</p>';
     html += '<p class="footer-status">501(c)(3) status pending</p>';
-    html += '<p class="footer-contact">Inquiries: <a href="mailto:admin@beacongcr.org">admin@beacongcr.org</a></p>';
+    html += '<p class="footer-contact">Inquiries: <a class="email-link" data-name="team" data-domain="beacongcr.org"></a></p>';
     html += '</div>';
     html += '<div class="footer-links"><ul>';
     for (var i = 0; i < FOOTER_LINKS.length; i++) {
@@ -141,8 +141,19 @@
     return footer;
   }
 
+  function assembleEmailLinks() {
+    var links = document.querySelectorAll('.email-link');
+    for (var i = 0; i < links.length; i++) {
+      var el = links[i];
+      var addr = el.getAttribute('data-name') + '@' + el.getAttribute('data-domain');
+      el.href = 'mailto:' + addr;
+      if (!el.textContent) el.textContent = addr;
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     document.body.insertBefore(buildNav(), document.body.firstChild);
     document.body.appendChild(buildFooter());
+    assembleEmailLinks();
   });
 })();

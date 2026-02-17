@@ -23,6 +23,9 @@ Thumbs.db
 docs/form-1023-responses.md
 docs/ceo-compensation-comparables.md
 
+# Copilot instructions (generic, not Beacon-specific)
+.github/copilot-instructions.md
+
 # Build outputs (if we add a build step later)
 dist/
 build/
