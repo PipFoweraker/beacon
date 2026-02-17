@@ -124,7 +124,7 @@
     html += '<div class="footer-about">';
     html += '<p class="footer-name">Beacon Institute for Global Catastrophic Risk</p>';
     html += '<p class="footer-status">501(c)(3) status pending</p>';
-    html += '<p class="footer-contact">Inquiries: <a class="email-link" data-name="team" data-domain="beacongcr.org"></a></p>';
+    html += '<p class="footer-contact">Inquiries: <a class="email-link" data-name="admin" data-domain="beacongcr.org"></a></p>';
     html += '</div>';
     html += '<div class="footer-links"><ul>';
     for (var i = 0; i < FOOTER_LINKS.length; i++) {
