@@ -14,6 +14,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # TODO: Remove this step after it has run once successfully
+      - name: Clean up previously deployed internal files from server
+        run: |
+          sudo apt-get install -y sshpass > /dev/null 2>&1
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no -p 22 \
+            "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" \
+            'rm -rf "${{ secrets.FTP_REMOTE_PATH }}/docs" "${{ secrets.FTP_REMOTE_PATH }}/.github"'
+
+      - name: Prepare deploy directory (exclude internal-only files)
+        run: |
+          mkdir -p _deploy
+          rsync -a --exclude='_deploy' \
+                   --exclude='docs/' \
+                   --exclude='dump/' \
+                   --exclude='.git/' \
+                   --exclude='.github/' \
+                   --exclude='*.md' \
+                   --exclude='.claude/' \
+                   --exclude='.mcp.json' \
+                   ./ _deploy/
+
       - name: Deploy to Dreamhost via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
@@ -21,7 +42,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
-          local_path: './*'
+          local_path: '_deploy/*'
           remote_path: ${{ secrets.FTP_REMOTE_PATH }}
           sftp_only: true
           delete_remote_files: false
