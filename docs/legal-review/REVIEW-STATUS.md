@@ -11,6 +11,7 @@ Status tracker for founder review of PKK Legal drafts (all dated Feb 2026).
 | Document Retention Policy | Feb 12 | Reviewed, no issues | — |
 | Whistleblower Policy | Feb 12 | Reviewed, typo flagged | — |
 | Anti-Bribery and Anti-Corruption Policy | Mar 9 (Beacon draft) | Draft created, sent to attorney | — |
+| Form 1023 Supplement | Mar 17 | Reviewed, feedback sent to attorney Mar 19 | — |
 
 ## Review Notes
 
@@ -114,11 +115,17 @@ Status tracker for founder review of PKK Legal drafts (all dated Feb 2026).
 
 | Date | Decision | By |
 |---|---|---|
-| | | |
+| Mar 19 | Grants percentage: 5% (not 10% or 50%) | Pip |
+| Mar 19 | Admin percentage: 20% (buffered for early-stage overhead) | Pip |
+| Mar 19 | Non-disclosure exceptions require board approval, not just staff review | Pip |
+| Mar 19 | No performance bonuses or incentive compensation for staff | Pip |
+| Mar 19 | Country list to use core-staff/project-staff framing, not specific countries | Pip |
+| Mar 24 | Reclassify project disbursements from Line 23 into Lines 18 (salaries, 65%), 22 (contractor fees, 25%), and residual 23 (direct costs, 10%) — per Paul's request. Total expenses unchanged. See `financials-changelog.md` for full before/after. | Pip |
+| Mar 24 | Add grants on Line 15: $0 Y1, $145K Y2, $175K Y3 (~5% of total expenses). Carved from existing project disbursement pool. No Y1 grants (startup year). | Pip |
 
 ## Questions for Attorney
 
-See DRAFT-EMAIL-to-Paul.md for compiled questions. Key items:
+See DRAFT-EMAIL-to-Paul.md for compiled questions (governance docs). Key items:
 1. Fiscal year alignment with Certificate of Incorporation
 2. Review/clean up Anti-Bribery policy draft
 3. Whistleblower typo fix
@@ -127,12 +134,25 @@ See DRAFT-EMAIL-to-Paul.md for compiled questions. Key items:
 6. COI: clarify who designates "identified contractors"
 7. Scope future policies: anti-harassment, code of conduct, AML
 
-## Additional Documents Created (Mar 9, 2026)
+See DRAFT-EMAIL-to-Paul-1023.md for Form 1023 supplement feedback (sent Mar 19). Key items:
+1. Reduce grants to 5%, bump admin to 20%
+2. Add project selection/oversight language for fiscal sponsorship activities
+3. Replace specific country list with core-staff vs project-staff framing
+4. Draft Part V Q3 (non-fixed compensation) — substance provided
+5. Strengthen Open Science non-disclosure approval to require board sign-off
+6. EOR arrangement disclosure — awaiting Paul's advice
+7. Minor: footnote typo ("Ord, Tob" → "Ord, Toby")
 
+## Additional Documents Created
+
+### Mar 9, 2026
 - `Anti-Bribery and Anti-Corruption Policy - Beacon (draft).md` — adapted from Ashgro policy, tailored for US 501(c)(3) fiscal sponsor
 - `Board Member Responsibilities.md` — short practical overview of director duties and time commitment
 - `Board Member Briefing - Governance Documents.md` — summary of all 5 governance documents for board member onboarding
-- `DRAFT-EMAIL-to-Paul.md` — compiled email to attorney with all change requests
+- `DRAFT-EMAIL-to-Paul.md` — compiled email to attorney with all change requests (governance docs)
+
+### Mar 19, 2026
+- `DRAFT-EMAIL-to-Paul-1023.md` — feedback on Form 1023 supplement (sent to attorney)
 
 ## Open Phil / Coefficient Giving Compliance Gap Analysis
 
@@ -152,8 +172,10 @@ Based on research into GCRCB minimum standards:
 
 ## Next Steps
 
-- [ ] Pip reviews draft email to Paul and sends (attaching Ashgro policy + Beacon anti-bribery draft)
-- [ ] Paul reviews and returns revised documents
+- [x] Pip reviews draft email to Paul and sends (attaching Ashgro policy + Beacon anti-bribery draft)
+- [x] Pip reviews and sends Form 1023 supplement feedback to Paul (Mar 19)
+- [ ] Paul returns revised Form 1023 supplement — review and approve for filing
+- [ ] Paul reviews and returns revised governance documents
 - [ ] Schedule organizational board meeting
 - [ ] At org meeting: adopt all policies, set fiscal year, elect officers, designate audit committee
 - [ ] All directors complete initial COI disclosure forms
