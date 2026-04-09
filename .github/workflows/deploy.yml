@@ -14,6 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run pre-deploy checks
+        run: |
+          echo "Checking JS syntax..."
+          node --check budget-tool.js
+          echo "Checking internal links..."
+          node tests/check-links.js
+          echo "Running unit tests..."
+          node tests/budget-tool.test.js
+
       # TODO: Remove this step after it has run once successfully
       - name: Clean up previously deployed internal files from server
         run: |
