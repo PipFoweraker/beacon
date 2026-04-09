@@ -582,8 +582,10 @@
       var opt = el('label', { className: 'bt-size-option' + (state.size === s.val ? ' selected' : '') }, [
         el('input', { type: 'radio', name: 'size', value: s.val, checked: state.size === s.val ? 'checked' : null,
           onChange: function () { state.size = s.val; applyTemplate(); render(); } }),
-        el('span', { className: 'bt-size-label' }, s.label),
-        el('span', { className: 'bt-size-desc' }, s.desc)
+        el('div', { className: 'bt-size-text' }, [
+          el('span', { className: 'bt-size-label' }, s.label),
+          el('span', { className: 'bt-size-desc' }, s.desc)
+        ])
       ]);
       sizeGroup.appendChild(opt);
     });
