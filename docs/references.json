@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "description": "Canonical reference library for Beacon website citations. Each entry has a stable ID used in HTML refs.",
+    "last_updated": "2026-04-09"
+  },
+  "references": {
+    "berger-2025-progress": {
+      "id": "berger-2025-progress",
+      "title": "Our Progress in 2024 and Plans for 2025",
+      "author": "Alexander Berger",
+      "publication": "Coefficient Giving (originally Open Philanthropy)",
+      "date": "2025-03-06",
+      "url": "https://coefficientgiving.org/research/our-progress-in-2024-and-plans-for-2025/",
+      "archive_url": "https://web.archive.org/web/2026/https://coefficientgiving.org/research/our-progress-in-2024-and-plans-for-2025/",
+      "accessed": "2026-04-09",
+      "tags": ["funding", "open-philanthropy", "ai-safety", "spending"],
+      "key_quotes": [
+        "All in, we committed roughly $50 million to technical AI safety research projects in 2024.",
+        "In retrospect, I think that rate of spending was too slow, and we should have been more aggressively expanding our support for technical AI safety work earlier; we're now playing catchup."
+      ],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "coefficient-2025-more-funders": {
+      "id": "coefficient-2025-more-funders",
+      "title": "AI Safety and Security Need More Funders",
+      "author": null,
+      "publication": "Coefficient Giving (originally Open Philanthropy)",
+      "date": "2025-10-02",
+      "url": "https://coefficientgiving.org/research/ai-safety-and-security-need-more-funders/",
+      "archive_url": "https://web.archive.org/web/2026/https://coefficientgiving.org/research/ai-safety-and-security-need-more-funders/",
+      "accessed": "2026-04-09",
+      "tags": ["funding", "ai-safety", "climate-comparison", "funder-landscape"],
+      "key_quotes": [
+        "Philanthropic funding for climate risk mitigation, for instance, was ~$9-15 billion in 2023 (the most recent data available), which we estimate to be ~20x as much as philanthropic funding for AI safety and security in 2024.",
+        "Third, Open Philanthropy and Good Ventures are currently a concentrated share of AI safety philanthropic funding, and others can correct our blind spots and make new bets."
+      ],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "mats-cohorts": {
+      "id": "mats-cohorts",
+      "title": "MATS Program cohort pages",
+      "author": null,
+      "publication": "MATS Program",
+      "date": null,
+      "url": "https://www.matsprogram.org/",
+      "archive_url": "https://web.archive.org/web/2026/https://www.matsprogram.org/",
+      "accessed": "2026-04-09",
+      "tags": ["talent-pipeline", "ai-safety", "training"],
+      "notes": "Cohort sizes: Winter 2024: 63, Summer 2024: ~90, Winter 2025: ~80, Summer 2026: 120. Total since 2021: 527+ researchers, 180+ publications.",
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "mcaleese-2025-field-growth": {
+      "id": "mcaleese-2025-field-growth",
+      "title": "AI Safety Field Growth Analysis 2025",
+      "author": "Stephen McAleese",
+      "publication": "LessWrong",
+      "date": "2025",
+      "url": "https://www.lesswrong.com/posts/8QjAnWyuE9fktPRgS/ai-safety-field-growth-analysis-2025",
+      "archive_url": "https://web.archive.org/web/2026/https://www.lesswrong.com/posts/8QjAnWyuE9fktPRgS/ai-safety-field-growth-analysis-2025",
+      "accessed": "2026-04-09",
+      "tags": ["field-size", "ai-safety", "growth-rate", "organizations"],
+      "key_quotes": ["~600 FTEs on technical AI safety, ~500 on non-technical AI safety (1,100 total), 70 organizations, ~24% annual growth rate."],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "kidd-2025-founders": {
+      "id": "kidd-2025-founders",
+      "title": "AI Safety Undervalues Founders",
+      "author": "Ryan Kidd",
+      "publication": "LessWrong",
+      "date": "2025-11-16",
+      "url": "https://www.lesswrong.com/posts/yw9B5jQazBKGLjize/ai-safety-undervalues-founders",
+      "archive_url": "https://web.archive.org/web/2026/https://www.lesswrong.com/posts/yw9B5jQazBKGLjize/ai-safety-undervalues-founders",
+      "accessed": "2026-04-09",
+      "tags": ["founders", "field-building", "operations", "ai-safety"],
+      "key_quotes": [
+        "Great founders and field-builders have multiplier effects on recruiting, training, and deploying talent to work on AI safety.",
+        "The dominant incentive gradients in AI safety point away from founder roles."
+      ],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "bergal-2026-capacity": {
+      "id": "bergal-2026-capacity",
+      "title": "The Case for AI Safety Capacity-Building Work",
+      "author": "Asya Bergal",
+      "publication": "EA Forum",
+      "date": "2026-03-10",
+      "url": "https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work",
+      "archive_url": "https://web.archive.org/web/2026/https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work",
+      "accessed": "2026-04-09",
+      "tags": ["capacity-building", "operations", "ai-safety", "coefficient"],
+      "key_quotes": ["capacity-building as an area of work is still massively underrated relative to its impact."],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "fortune-2026-anthropic-pledge": {
+      "id": "fortune-2026-anthropic-pledge",
+      "title": "Anthropic's Billionaire Cofounders Pledge 80% of Wealth",
+      "author": null,
+      "publication": "Fortune",
+      "date": "2026-01-27",
+      "url": "https://fortune.com/2026/01/27/anthropic-billionaire-cofounders-ceo-dario-amodei-giving-away-80-percent-of-wealth-fighting-inequality-ai-revolution/",
+      "archive_url": "https://web.archive.org/web/2026/https://fortune.com/2026/01/27/anthropic-billionaire-cofounders-ceo-dario-amodei-giving-away-80-percent-of-wealth-fighting-inequality-ai-revolution/",
+      "accessed": "2026-04-09",
+      "tags": ["philanthropy", "anthropic", "giving-pledge", "frontier-labs"],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "transformer-2026-anthropic-ea": {
+      "id": "transformer-2026-anthropic-ea",
+      "title": "Anthropic Employees, Philanthropy, and EA",
+      "author": null,
+      "publication": "Transformer News",
+      "date": "2026-03-12",
+      "url": "https://www.transformernews.ai/p/anthropic-employees-philanthropy-billions-donations-effective-altruism-coefficient-giving-ai-safety",
+      "archive_url": "https://web.archive.org/web/2026/https://www.transformernews.ai/p/anthropic-employees-philanthropy-billions-donations-effective-altruism-coefficient-giving-ai-safety",
+      "accessed": "2026-04-09",
+      "tags": ["philanthropy", "anthropic", "gwwc", "ea", "frontier-labs"],
+      "key_quotes": [
+        "Dario Amodei, Amanda Askell, and Jack Clark have all publicly signed the Giving What We Can Pledge.",
+        "Nearly 30 Anthropic employees registered for an EA conference in San Francisco...over twice the representation of OpenAI, Google DeepMind, xAI, and Meta Superintelligence Labs combined."
+      ],
+      "used_on": ["about/theory-of-change.html"]
+    },
+    "anschell-2026-flush-future": {
+      "id": "anschell-2026-flush-future",
+      "title": "Preparing for a Flush Future: Work, Giving, and Conduct",
+      "author": "Sam Anschell",
+      "publication": "EA Forum",
+      "date": "2026-02-02",
+      "url": "https://forum.effectivealtruism.org/posts/H8SqwbLxKkiJur3c4/preparing-for-a-flush-future-work-giving-and-conduct",
+      "archive_url": "https://web.archive.org/web/2026/https://forum.effectivealtruism.org/posts/H8SqwbLxKkiJur3c4/preparing-for-a-flush-future-work-giving-and-conduct",
+      "accessed": "2026-04-09",
+      "tags": ["philanthropy", "funding-wave", "infrastructure", "ai-labs"],
+      "key_quotes": [
+        "It seems fairly likely that some causes EAs prioritize may receive significantly more money soon than ever before.",
+        "Founding new orgs or piloting projects that may be able to cost-effectively absorb lots of future funding may be especially valuable."
+      ],
+      "used_on": ["about/theory-of-change.html"]
+    }
+  }
+}

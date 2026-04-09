@@ -31,6 +31,9 @@
       children: [
         { label: 'Starting a GCR Project', href: '/resources/starting.html' },
         { label: 'Funding & Grants', href: '/resources/funding.html' },
+        { label: 'Grant Budget Builder', href: '/resources/budget-tool.html' },
+        { label: 'Budget Templates', href: '/resources/budget-templates.html' },
+        { label: 'Budget Reference Data', href: '/resources/budget-reference.html' },
         { label: 'Project Management', href: '/resources/project-management.html' },
         { label: 'Compliance & Governance', href: '/resources/compliance.html' }
       ]
