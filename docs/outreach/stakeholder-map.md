@@ -1,7 +1,7 @@
 # Beacon Stakeholder Map
 
 **Status:** Draft — Pip to populate names, relationship context, and priorities.
-**Last updated:** 2026-03-10
+**Last updated:** 2026-04-07
 
 ---
 
@@ -33,6 +33,15 @@ People and orgs who fund GCR work. They might (a) direct projects to Beacon, (b)
 | [Pip to add] | Longview Philanthropy | | Awareness + project referrals | High | Regrants and advises on GCR giving. Would refer projects. |
 | [Pip to add] | AISTOF | Existing | Operational update, continued relationship | High | Existing seed funder. Keep informed of progress. |
 | [Pip to add] | EA Funds (Long-Term Future Fund) | | Awareness + referrals | Medium | Grants to individuals/small projects that often need fiscal sponsorship. |
+| [Pip to add] | Future of Life Institute (FLI) | | Awareness + project referrals | High | Grants $100K-$5M for AI safety, bio, nuclear. Fellows and funded projects often need a nonprofit home. |
+| [Pip to add] | Founders Pledge (GCR Fund) | | Awareness + referrals | Medium-High | Advises tech founders on GCR giving, deploys large grants. Spots underfunded interventions. |
+| [Pip to add] | Manifund (regranting platform) | | Awareness, understand relationship | High | Both a regranting platform and fiscal sponsor. Part competitor, part referral source — projects may outgrow their lightweight model. |
+| [Pip to add] | ARM Fund (via Lightcone) | | Awareness + referrals | Medium | Grants for technical alignment, policy, researcher training. Grantees are early-career researchers needing homes. |
+| [Pip to add] | Frontier Model Forum AI Safety Fund | | Awareness | Medium | Industry-backed ($10M+, Google/MSFT/Anthropic/OpenAI). Funds research teams that may lack institutional homes. |
+| [Pip to add] | Schmidt Sciences (Trustworthy AI) | | Awareness | Medium | $1M-$5M+ grants. Researchers may spin off independent projects needing sponsorship. |
+| [Pip to add] | CLR Fund (Center on Long-Term Risk) | | Awareness + referrals | Medium | Funds independent researchers on s-risks. Exactly the type who need fiscal sponsors. |
+| [Pip to add] | Navigation Fund (Jed McCaleb) | | Awareness | Low-Medium | Newer fund entering AI safety space. Currently hiring Program Officer for Safe AI. Worth tracking. |
+| [Pip to add] | Cooperative AI Foundation (CAIF) | | Awareness | Low-Medium | Funds cooperative AI research, runs fellowship. Fellows may need sponsorship for independent work. |
 | [Pip to add] | [Individual donors / DAFs] | | | | |
 
 ## Segment B — Prospective Sponsored Projects
@@ -57,9 +66,9 @@ Orgs that interact with the same population and might refer projects, vouch for 
 
 | Name | Org | Warmth | Ask | Priority | Notes |
 |------|-----|--------|-----|----------|-------|
-| [Pip to add] | Ashgro | | Mutual awareness, referral relationship | Medium | Fiscal sponsor in adjacent space. |
+| [Pip to add] | Ashgro | Existing | Mutual awareness, referral relationship | Medium | Fiscal sponsor in adjacent space. Pip was COO — warm contact. |
 | [Pip to add] | CEEALAR | | Mutual awareness | Medium | EA-aligned, provides researcher housing/support. |
-| [Pip to add] | Rethink Priorities | | Mutual awareness | Medium | Research org, may spin off projects or know people who need sponsorship. |
+| [Pip to add] | Rethink Priorities | | Mutual awareness | Medium | Research org + has a Special Projects fiscal sponsorship arm. Both a peer and potential referral source. |
 | [Pip to add] | CEA (Centre for Effective Altruism) | | Awareness | Medium | EA infrastructure. Community health, events, groups. |
 | [Pip to add] | 80,000 Hours | | Awareness | Low | Career advice org. Might refer people starting GCR projects. |
 | [Pip to add] | MIRI | | Awareness, possible project spin-offs | Medium | AI safety research. Researchers may leave to start independent projects. |
@@ -67,6 +76,14 @@ Orgs that interact with the same population and might refer projects, vouch for 
 | [Pip to add] | Redwood Research | | Awareness | Low | Technical alignment lab. |
 | [Pip to add] | FAR AI | | Awareness | Low | AI safety research. |
 | [Pip to add] | MATS | | Awareness + referrals | High | Trains 100+ aspiring safety researchers/year. Graduates often need a project home. |
+| [Pip to add] | BERI (Berkeley Existential Risk Initiative) | | Mutual awareness, referral relationship | High | Fiscal sponsor, but university-focused. Closest analog to Beacon — natural "different niches" referral partner. |
+| [Pip to add] | Effective Ventures (US + UK) | | Mutual awareness | High | Largest EA fiscal host. Projects leave EV and need new homes. Understanding scope and gaps matters. |
+| [Pip to add] | Lightcone Infrastructure | | Mutual awareness, referral relationship | Medium | Fiscal sponsor behind LessWrong, AI Alignment Forum. Sponsors ARM Fund and others. |
+| [Pip to add] | Catalyze Impact | | Awareness + referrals | High | AI safety incubator. Winter 2024/25 cohort produced 11 new orgs. Nonprofit graduates need sponsors. |
+| [Pip to add] | Kairos (runs SPAR fellowship) | | Awareness + referrals | Medium | Like MATS — produces aspiring researchers who may need project homes. |
+| [Pip to add] | GovAI (Centre for the Governance of AI) | | Awareness | Medium | Alumni pipeline of governance-focused people who start projects. |
+| [Pip to add] | Foresight Institute | | Awareness | Medium | Opening AI Safety Nodes in SF/Berlin (April 2026). Will produce project spinoffs. |
+| [Pip to add] | Arcadia Impact | | Awareness | Medium | Runs LASR Labs, AI Governance Taskforce, career transition programs. Graduates may start projects. |
 
 ## Segment D — Peer Leaders & Advisors
 
@@ -89,7 +106,10 @@ Suggested order of outreach (Pip to adjust):
 
 1. **AISTOF** — existing funder, keep informed. Low effort, high relationship value.
 2. **Pipeline project(s)** — the alignment education program already in pipeline. Confirm mutual intent, begin pre-onboarding.
-3. **MATS** — high referral potential, graduates are exactly Beacon's target population.
-4. **Major funders** (OP, SFF, Longview, Coefficient) — awareness. These conversations take time to bear fruit; start early.
-5. **Ecosystem peers** — lighter touch, but establishes Beacon in the landscape.
-6. **Peer leaders** — organic, as opportunities arise.
+3. **SFF** — time-sensitive: current round closes ~April 21. Pipeline projects applying. Get Beacon on their radar before applications land.
+4. **Coefficient** — pipeline projects applying for Coefficient grants. DD framing: Pip has prior relationship via Ashgro. Draft email ready.
+5. **Other major funders** (OP, Longview, FLI, Founders Pledge) — awareness. These conversations take time to bear fruit; start early.
+6. **MATS, Catalyze Impact, Kairos** — high referral potential. Graduates are exactly Beacon's target population.
+7. **Fiscal sponsor peers** (BERI, EV, Lightcone, RP Special Projects, Manifund) — mutual awareness, referral relationships, understanding scope boundaries.
+8. **Other ecosystem peers** — lighter touch, but establishes Beacon in the landscape.
+9. **Peer leaders** — organic, as opportunities arise.

@@ -1,7 +1,7 @@
 # Beacon Outreach Tracker
 
 **Status:** Active — update after each contact.
-**Last updated:** 2026-03-10
+**Last updated:** 2026-04-09
 
 ---
 
@@ -21,9 +21,9 @@
 | | [Pipeline alignment education program] | B | | | — | | Already in conversation. Confirm timeline. |
 | | MATS | C | | | — | | High referral potential. |
 | | Open Philanthropy | A | | | — | | GCRCB program. |
-| | Survival and Flourishing Fund | A | | | — | | |
+| | Survival and Flourishing Fund | A | Yes | 2026-04-08 | replied | — | OK for projects to list Beacon, note pending 501(c)(3). Can pivot later if delayed. Beacon can also apply directly this round (deadline Apr 22). |
 | | Longview Philanthropy | A | | | — | | |
-| | Coefficient Giving | A | | | — | | |
+| | Coefficient Giving | A | Yes | 2026-04-08 | pending | 2026-04-15 | Intro letter sent (not the full DD email drafted earlier). Referenced Ashgro relationship. |
 | | EA Funds (LTFF) | A | | | — | | |
 | | Ashgro | C | | | — | | Fiscal sponsor, non-competitive. |
 | | CEEALAR | C | | | — | | |

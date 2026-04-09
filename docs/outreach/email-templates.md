@@ -1,7 +1,7 @@
 # Beacon Outreach Email Templates
 
 **Status:** Draft — Pip to review tone, personalize, and send manually.
-**Last updated:** 2026-03-10
+**Last updated:** 2026-04-07
 
 ---
 
@@ -9,7 +9,7 @@
 
 Use this (or a close variant) in all emails for consistency. Adjust tense/details as status changes.
 
-> Beacon Institute for Global Catastrophic Risk is a new US 501(c)(3) fiscal sponsor focused exclusively on projects addressing catastrophic and existential risk, including AI safety, biosecurity, and cross-cutting field-building. We provide the nonprofit infrastructure, financial administration, and compliance support so researchers and project leads can focus on substantive work. Our 501(c)(3) application is currently with our attorney, governance documents are adopted, and we have seed funding in place. We expect to begin onboarding our first sponsored projects in Q2-Q3 2026.
+> Beacon Institute for Global Catastrophic Risk is a new US 501(c)(3) fiscal sponsor focused exclusively on projects addressing catastrophic and existential risk, including AI safety, biosecurity, and cross-cutting field-building. We provide the nonprofit infrastructure, financial administration, and compliance support so researchers and project leads can focus on substantive work. Our Form 1023 is filed with the IRS and we're expecting a determination in the coming weeks. Governance documents are adopted and seed funding is in place.
 
 ---
 
