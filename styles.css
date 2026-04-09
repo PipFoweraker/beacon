@@ -621,7 +621,9 @@ th {
 
 /* Size selector */
 .bt-size-option {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
     padding: 0.75rem 1rem;
     margin-bottom: 0.5rem;
     border: 1px solid #e2e8f0;
@@ -631,12 +633,23 @@ th {
 }
 .bt-size-option:hover { border-color: #0369a1; }
 .bt-size-option.selected { border-color: #0369a1; background: #f0f9ff; }
-.bt-size-option input { margin-right: 0.5rem; }
+.bt-size-option input { margin-top: 0.25rem; flex-shrink: 0; }
 .bt-size-label { font-weight: 600; }
-.bt-size-desc { display: block; margin-left: 1.5rem; color: #64748b; font-size: 0.85rem; }
+.bt-size-desc { display: block; color: #64748b; font-size: 0.85rem; }
 
-.bt-checkbox-label { display: flex; align-items: center; gap: 0.5rem; cursor: pointer; }
-.bt-checkbox-label input { margin: 0; }
+.bt-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.bt-checkbox-label input {
+    margin: 0;
+    width: 1.15rem;
+    height: 1.15rem;
+    flex-shrink: 0;
+}
 .bt-hint { color: #64748b; font-size: 0.85rem; margin-top: 0.25rem; }
 
 /* Person cards */
@@ -667,33 +680,33 @@ th {
 
 .bt-person-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 0.75rem;
 }
 
 .bt-person-calc {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1.5rem;
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
+    gap: 0.25rem 1.25rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
     border-top: 1px solid #e2e8f0;
-    font-size: 0.85rem;
-    color: #475569;
+    font-size: 0.8rem;
+    color: #64748b;
 }
 
 .bt-person-total { font-weight: 600; color: #0f172a; }
 
 /* Salary frequency display */
 .bt-salary-freq {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 0.25rem 1rem;
     margin-top: 0.5rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.4rem 0.75rem;
     background: #f0f9ff;
     border-radius: 4px;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: #475569;
 }
 
@@ -964,7 +977,7 @@ th {
 }
 
 .bt-item-freq { color: #64748b; font-size: 0.8rem; }
-.bt-item-total { font-weight: 500; text-align: center; }
+.bt-item-total { font-weight: 500; text-align: right; }
 
 .bt-amount-input {
     width: 100%;
@@ -1177,6 +1190,7 @@ th {
         grid-template-columns: 2fr 0.5fr 0.8fr 0.7fr 0.8fr 1fr;
         font-size: 0.85rem;
     }
+    .bt-person-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 768px) {
@@ -1221,6 +1235,7 @@ th {
     .bt-progress-label { display: none; }
     .bt-progress-step { padding: 0.5rem 0.25rem; }
     .bt-person-grid { grid-template-columns: 1fr; }
+    .bt-salary-freq { grid-template-columns: repeat(3, auto); }
     .bt-item-row { grid-template-columns: 1fr 1fr; gap: 0.25rem; font-size: 0.85rem; }
     .bt-item-example { grid-column: 1 / -1; }
     .bt-item-header { display: none; }
