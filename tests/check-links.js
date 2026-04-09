@@ -40,6 +40,11 @@ htmlFiles.forEach(function (file) {
       var rel = path.relative(root, file).replace(/\\/g, '/');
       errors.push(rel + ': broken link to ' + href);
     }
+    // Warn about clean URLs (no extension) since .htaccess rewrites are unreliable
+    if (!href.match(/\.\w+$/) && !href.endsWith('/')) {
+      var rel2 = path.relative(root, file).replace(/\\/g, '/');
+      errors.push(rel2 + ': clean URL without extension: ' + href + ' (add .html — server rewrites are broken)');
+    }
   }
 });
 
