@@ -467,6 +467,47 @@ th {
     letter-spacing: 0.04em;
 }
 
+/* ---- Page-bottom navigation ---- */
+.page-nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.page-nav h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.page-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.page-nav li a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #0f172a;
+    transition: border-color 0.15s, background 0.15s;
+}
+
+.page-nav li a:hover {
+    border-color: #0369a1;
+    background: #f0f9ff;
+    text-decoration: none;
+}
+
 /* ---- Inline references & footnotes ---- */
 .ref {
     font-size: 0.7em;
