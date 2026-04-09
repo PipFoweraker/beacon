@@ -392,11 +392,13 @@ li { margin-bottom: 0.35rem; }
 .form-group input[type="radio"],
 .form-group input[type="checkbox"] {
     width: auto;
+    display: inline-block;
     padding: 0;
     border: none;
     background: none;
     border-radius: 0;
     box-shadow: none;
+    line-height: normal;
 }
 
 .form-group input:focus,
