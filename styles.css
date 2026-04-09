@@ -59,9 +59,9 @@ li { margin-bottom: 0.35rem; }
 }
 
 .nav-container {
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -633,8 +633,15 @@ th {
 }
 .bt-size-option:hover { border-color: #0369a1; }
 .bt-size-option.selected { border-color: #0369a1; background: #f0f9ff; }
-.bt-size-option input { margin-top: 0.3rem; flex-shrink: 0; }
+.bt-size-option input[type="radio"] {
+    margin-top: 0.35rem;
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+}
+/* Works with both old JS (3 children) and new JS (div wrapper) */
 .bt-size-text { flex: 1; }
+.bt-size-option > span { display: block; }
 .bt-size-label { display: block; font-weight: 600; }
 .bt-size-desc { display: block; color: #64748b; font-size: 0.85rem; margin-top: 0.15rem; }
 
@@ -1084,9 +1091,9 @@ th {
 .bt-summary-row {
     display: grid;
     grid-template-columns: 1fr auto auto;
-    gap: 0.5rem;
+    gap: 0.35rem;
     padding: 0.4rem 0;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     border-bottom: 1px solid #1e293b;
 }
 
@@ -1097,20 +1104,20 @@ th {
     text-align: right;
 }
 
-.bt-summary .num { min-width: 60px; text-align: right; }
+.bt-summary .num { min-width: 50px; text-align: right; font-size: 0.8rem; }
 
 .bt-summary-total {
     display: grid;
     grid-template-columns: 1fr auto auto;
-    gap: 0.5rem;
+    gap: 0.35rem;
     padding: 0.75rem 0 0.5rem;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: #38bdf8;
 }
 
 .bt-summary-total .bt-ex {
-    font-size: 0.85rem;
+    font-size: 0.78rem;
     font-weight: 400;
 }
 
