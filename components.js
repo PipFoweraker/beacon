@@ -154,9 +154,73 @@
     }
   }
 
+  function buildToc() {
+    var content = document.querySelector('.content');
+    if (!content) return;
+
+    var headings = content.querySelectorAll('h2, h3');
+    if (headings.length < 4) return; // Only add ToC for substantial pages
+
+    // Ensure each heading has an ID
+    for (var i = 0; i < headings.length; i++) {
+      if (!headings[i].id) {
+        headings[i].id = 'section-' + headings[i].textContent.toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+      }
+    }
+
+    // Build ToC HTML
+    var toc = document.createElement('nav');
+    toc.className = 'page-toc';
+    toc.setAttribute('aria-label', 'Table of contents');
+    var title = document.createElement('span');
+    title.className = 'page-toc-title';
+    title.textContent = 'On this page';
+    toc.appendChild(title);
+
+    var list = document.createElement('ul');
+    for (var j = 0; j < headings.length; j++) {
+      var h = headings[j];
+      var li = document.createElement('li');
+      li.className = h.tagName === 'H3' ? 'toc-sub' : '';
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.setAttribute('data-toc-idx', j);
+      li.appendChild(a);
+      list.appendChild(li);
+    }
+    toc.appendChild(list);
+
+    // Wrap content in a flex layout with ToC sidebar
+    var wrapper = document.createElement('div');
+    wrapper.className = 'toc-layout';
+    content.parentNode.insertBefore(wrapper, content);
+    wrapper.appendChild(toc);
+    wrapper.appendChild(content);
+
+    // Scroll spy: highlight current section
+    var tocLinks = list.querySelectorAll('a');
+    var debounce = null;
+    window.addEventListener('scroll', function () {
+      if (debounce) return;
+      debounce = setTimeout(function () {
+        debounce = null;
+        var current = null;
+        for (var k = 0; k < headings.length; k++) {
+          if (headings[k].getBoundingClientRect().top <= 100) current = k;
+        }
+        for (var m = 0; m < tocLinks.length; m++) {
+          tocLinks[m].parentNode.classList.toggle('active', m === current);
+        }
+      }, 50);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     document.body.insertBefore(buildNav(), document.body.firstChild);
     document.body.appendChild(buildFooter());
     assembleEmailLinks();
+    buildToc();
   });
 })();
